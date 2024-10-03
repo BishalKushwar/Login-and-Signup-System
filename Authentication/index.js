@@ -1,7 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const userRoutes = require('./routes/UserRoute'); // Import user routes
-const cors = require('cors'); // Optional: for Cross-Origin Resource Sharing
+const cors = require('cors'); 
 const database = require('./utils/Database'); 
 
 // Load environment variables
