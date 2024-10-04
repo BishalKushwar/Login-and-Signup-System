@@ -1,6 +1,6 @@
 const express = require('express');
 const dotenv = require('dotenv');
-const userRoutes = require('./routes/UserRoute'); // Import user routes
+const userRoutes = require('./routes/UserRoute'); 
 const cors = require('cors'); 
 const database = require('./utils/Database'); 
 
